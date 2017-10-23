@@ -1,0 +1,359 @@
+﻿
+
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Movie Browsing Site</title>
+<link rel="shortcut icon" type="image/png" href=""/>
+<meta charset="utf-8" /> 
+<link rel="stylesheet" type="text/css" href="store.css">
+
+<script type="text/javascript" src="register.js"></script>
+
+</head>
+
+<body>
+  
+  <header>
+      
+    <div class="head">
+      
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89034003-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+        
+            <nav class="nav">
+                
+                <ul>
+                    <li><a href="signin.html" >Sign In</a></li>
+                    <li><a href="register.html" >Register</a></li>
+                    <li><a href="" >Store</a></li>
+                </ul>
+                    
+            </nav>
+      
+    </div>
+      <div class="subheader">
+          <form class="flexsearch--form" action="#" method="post">
+          <div class="flexsearch">
+		<div class="flexsearch--wrapper">
+			
+				<div class="flexsearch--input-wrapper">
+					<input class="flexsearch--input" type="search" placeholder="Search for a movie">
+				</div>
+			
+			
+		</div>
+              </div>
+          
+          
+              <select name="department" class="search-dept">
+    <option value="all">in All Departments</option>
+    <option value="kids">in Kids</option>
+    <option value="action">in Action</option>
+    <option value="comedy">in Comedy</option>
+    <option value="romance">in Romance</option>
+    <option value="horror">in Horror</option>
+    <option value="documentary">in Documentary</option>
+    <option value="adventure">in Adventure</option>
+  </select>
+              <input type="submit" value="Search" class="search-button">
+                </form>
+          
+      </div>
+  </header>
+    
+    <div class="announcement">Rent movies for a month, log in, and enjoy your content with other people. 
+        <button class="button2"><a href="register.html" class="chillonline">Start your free trial</a></button></div>
+    
+    <div class="store">
+        
+        <div class="store-selector">
+            <div class=""></div>
+            <div class=""><h2>Choose department</h2></div>
+            <div class="dept-nav-place">
+                <nav class="dept-nav">
+                
+                <ul>
+                    <li id="kids"><a href="kids/index.html" >Kids</a></li>
+<li>
+<div id="toggle-down"></div>
+<div id="toggle-up"></div>
+</li>
+<div id="toggle">
+                    <li class="genre"><a href="action/index.html" >Action</a></li>
+<li class="genre"><a href="action/index.html" >Action</a></li>
+<li class="genre"><a href="action/index.html" >Action</a></li>
+<li class="genre"><a href="action/index.html" >Action</a></li>
+</div>
+                    <li><a href="comedy/index.html" >Comedy</a></li>
+                    <li><a href="romance/index.html" >Romance</a></li>
+                    <li><a href="horror/index.html" >Horror</a></li>
+                    <li><a href="documentary/index.html" >Documentary</a></li>
+                    <li><a href="adventure/index.html" >Adventure</a></li>
+                </ul>
+                    
+                </nav>
+            </div>
+            
+            <div class="">
+                
+                <div class=""><h2>Select origins</h2></div>
+                
+                <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program" name="country" value="country"> United Kingdom</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> United States</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program" checked> Canada</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Germany</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> France</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Ireland</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> China</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Japan</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> South Korea</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Nigeria</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> South Africa</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Argentina</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Brazil</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" class="search-program"> Mexico</div>
+          <div class=""> &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit" value="Refresh" class="button2"></div>
+                
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+        <div class="store-content">
+            <div class="hottest"><div class="advert"></div></div>
+        <div class="browsed">    
+            <div class="product">
+                        <a href="checkout.html"><div class="poster">
+                    
+                        <img src="movies/posters/epic.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">Epic</a></div>
+                <div class="distributor">Blue Sky Productions</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                        <a href=""><div class="poster">
+                    
+                        <img src="movies/posters/hop.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">Hop</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                        <a href=""><div class="poster">
+                    
+                        <img src="movies/posters/hugo.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">Hugo</a></div>
+                <div class="distributor">Time Warner</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href="" id="product-anchor">
+                    <div class="poster">
+                        
+                        <img src="https://s3.ca-central-1.amazonaws.com/pegbucket/movies/posters/allofmyheart.jpg" alt="agri" id="product-poster2" title="Play Trailer">
+                        
+                    </div>
+                   </a>
+                <div class="definition"><a href="" class="definition-style">All Of My Heart</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                    
+                        <img src="movies/posters/justlikeheaven.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">Just Like Heaven</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                    
+                        <img src="movies/posters/backupplan.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">The Backup Plan</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                    
+                        <img src="movies/posters/journey2.jpg" alt="agri" id="product-poster2" title="Channel Icon">
+                        
+                    </div></a>
+                <div class="definition"><a href="" class="definition-style">Journey 2</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                 <div class="poster">
+                    
+                        <a href=""><img src="movies/posters/lifeofpi.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        
+                    </div>
+                <a href="" class="definition-style" title='Carry to checkout'><div class="definition">Life Of Pi</div></a>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <div class="poster">
+                    
+                        <a href=""><img src="movies/posters/piratesdeadchest.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        
+                    </div>
+                <a href="checkout.jsp" class="definition-style" title='Carry to checkout'><div class="definition">Pirates of the Caribbean: Dead Man's Chest</div></a>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+
+                        <a href=""><img src="movies/posters/quantum.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        
+</div></a>
+
+                <div class="definition"><a href="" class="definition-style">Quantum Of Solace</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/ironman3.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Iron Man 3</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/avengers.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Avengers</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/planetearth.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Planet Earth</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/firstworldwar.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">The First World War</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/whereeaglesdare.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Where Eagles Dare</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/voodoopossession.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Voodoo Possession</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/zombies.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">Pride and Prejudice + Zombies</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+            <div class="product">
+                <a href=""><div class="poster">
+                        <a href=""><img src="movies/posters/thehouse.jpg" alt="agri" id="product-poster2" title="Play Trailer"></a>
+                        </div></a>
+                <div class="definition"><a href="" class="definition-style">The House at the End of Time</a></div>
+                <div class="distributor">Disney</div>
+                <div class="loves-n-seeds"><a href="" class="loves-style">United States</a></div>
+                <div class="commentaries"><a href="" class="definition-style">USD$4.99</a></div>
+                <div class="loves-n-seeds"></div>
+            </div>
+        </div>
+                    <div class="hottest"><div class="browsing">
+                            <div class="browsing-place"><button onclick="">< Previous</button></div>
+                            <div class="browsing-place">1 of 31</div>
+                            <div class="browsing-place"><button onclick="">Next ></button></div>
+                </div></div>
+        </div>
+        
+    </div>
+  
+  <footer>
+    
+      
+    <div class="copyright">
+        <hr>
+        <p>&copy; 2016 Group 7. All Rights Reserved.</p></div>
+    
+    
+  </footer>
+
+</body>
+</html>
